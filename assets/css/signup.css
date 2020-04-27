@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/assets/images/background.jpg');
+    background-size: contain;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.signupContainer {
+    background-color: #FFFFFF;
+    width: 40%;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signupContainer input {
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 70%;
+}
+#signupbtn {
+    font-family: 'Montserrat', sans-serif;  
+    background-color: midnightblue;
+    color: white;
+    font-size: 1.2em;
+}
+
+.signupContainer label {
+    display: none;
+}
+
+#invalidEmail, #invalidName {
+    display: none;
+    margin-top: 10px;
+    position: absolute;
+    color: red;
+
+}

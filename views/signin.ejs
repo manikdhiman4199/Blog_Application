@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/assets/js/jquery.js"></script>
+    <script src="assets/js/signin.js"></script>
+    <link rel="stylesheet" href="/assets/css/signin.css">
+    <title>Sign-In</title>
+</head>
+
+<body>
+    <div id='bg_img'>    </div>
+        <div class="loginContainer">
+            <h2>SIGN IN</h2>
+            <form id="loginForm" action="/api/login" method="POST">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Username">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <br>
+                <input type="submit" value="LOGIN" id="loginBtn"> <br>
+                <span style="font-size: 1.1em;margin-top: 40px"> OR </span><br>
+            </form>
+            <a href="/signup"><button id="signupBtn">SIGN UP</button></a>
+        </div>
+ 
+</body>
+
+</html>

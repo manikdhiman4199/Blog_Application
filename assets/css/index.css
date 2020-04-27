@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    background-color: rgb(233, 233, 233);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar li {
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* font-weight: bolder; */
+    letter-spacing: 1.5px;
+}
+
+.navbar img {
+    width: 10%;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    margin-top: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#postContent, #title {
+    width: auto;
+    border: 1px solid black;
+}
+
+#title {
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 87%;
+}
+
+#postBtn {
+    border: black;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+
+legend {
+ padding: 10px;
+}
+
+.content {
+    margin-top: 18%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+/* 
+.content li {
+
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid midnightblue;
+    text-align: center;
+} */
+
+#userName {
+    text-transform: capitalize;
+}
+
+ul {
+    width: 400px;
+    list-style: none;
+    border: 1px solid black;
+    margin:  20px;
+    padding: 0px;
+}
+
+ul>li { 
+    padding-top: 0px;
+    /* padding-bottom: 50px; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.postTitle {
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.postContent {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+
+textarea {
+    padding: 5px;
+}

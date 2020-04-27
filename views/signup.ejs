@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/assets/js/jquery.js"></script>
+    <script src="assets/js/signup.js"></script>
+    <link rel="stylesheet" href="assets/css/signup.css" type="text/css">
+    <title>Sign-Up</title>
+</head>
+
+<body>
+    <div class="signupContainer" id="signup_form" >
+        <h2>SIGN UP</h2>
+        <form id="signupForm">
+        <label for="fullName">Full Name: </label>
+        <input type="text" name="fullName" id="fullName" placeholder="Full Name" required> <br>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Username" required><span id="invalidName">Invalid Username</span><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password" required><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required><span id="invalidEmail">Invalid Email</span><br>
+        <input type="submit" value="CREATE ACCOUNT" id="signupbtn">
+    </form>
+    </div>
+</body>
+
+</html>
